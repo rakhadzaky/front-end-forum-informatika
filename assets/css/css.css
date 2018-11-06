@@ -1,0 +1,77 @@
+body{
+	font-family: 'Roboto';
+	margin : 0;
+	overflow-x: hidden;
+	background-color: #6E6187;
+	color: white;
+}
+.logo-login{
+	width: 200px;
+}
+.login_box{
+	margin-top: 40px;
+	margin-bottom: 80px;
+	width: 100%;
+	background-color: #8f7fAf;
+	padding: 20px 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+.login_box input, .login_box select{
+	background-color: #D3C0F8;
+	border : none;
+}
+.login_box a{
+	color: #623FA8;
+	text-decoration: none;
+}
+.login_box a:hover{
+	color: white;
+	text-decoration: none;
+}
+.logo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.form-group{
+	text-align: left;
+}
+.my_button{
+	background-color: transparent;
+	border-width: 2px;
+	border-color: #D3C0F8;
+	color: white;
+}
+.my_button:hover{
+	background-color: white;
+	color: #623FA8;
+	transition: 0.5s;
+	border-color: white;
+}
+
+.my_navbar{
+	background-color: #524870;
+}
+.my_navbar button{
+	background-color: transparent;
+	border: none;
+	color: #D3C0F8;
+	cursor: pointer;
+}
+.my_navbar button:hover{
+	color: white;
+}
+.my_navbar ul{
+	margin: 0;
+	text-align: right;
+	width: 100%;
+}
+.my_navbar ul li{
+	display: inline;
+	margin: 0 10px;
+}
+.my_side{
+	background-color: #5E4166;
+	float: left;
+	padding: 20px;
+}
