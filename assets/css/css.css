@@ -16,6 +16,7 @@ body{
 	padding: 20px 30px;
 	text-align: center;
 	border-radius: 10px;
+	/*transform: translate(50%, 50%);*/
 }
 .login_box input, .login_box select{
 	background-color: #D3C0F8;
@@ -71,7 +72,21 @@ body{
 	margin: 0 10px;
 }
 .my_side{
-	background-color: #5E4166;
 	float: left;
-	padding: 20px;
+	width: 200px;
+	text-align: center;
+}
+.my_nav_item{
+	padding: 10px;
+	transition: 0.5s;
+	background: linear-gradient(to left, #825d8c 50%, #5E4166 50%);
+	background-size: 200% 100%;
+	transition: all 0.5s ease;
+}
+.my_nav_item:hover{
+	background-position:right bottom;
+}
+.my_nav_item_icon{
+	background-color: #825d8c;
+	padding: 10px;
 }
