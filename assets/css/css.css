@@ -73,15 +73,23 @@ body{
 }
 .my_side{
 	float: left;
-	width: 200px;
+	width: 250px;
 	text-align: center;
+	background-color: #5E4166;
+	min-height: 100%;
+	position: fixed;
+	padding: 0 15px 0 0;
 }
 .my_nav_item{
-	padding: 10px;
+	padding: 10px 10px 10px 20px;
 	transition: 0.5s;
 	background: linear-gradient(to left, #825d8c 50%, #5E4166 50%);
 	background-size: 200% 100%;
 	transition: all 0.5s ease;
+	text-align: left;
+	color: #D3C0F8;
+	cursor: pointer;
+	width: 100%;
 }
 .my_nav_item:hover{
 	background-position:right bottom;
@@ -89,4 +97,45 @@ body{
 .my_nav_item_icon{
 	background-color: #825d8c;
 	padding: 10px;
+	color: #D3C0F8;
+}
+.my-container-of-content{
+	margin-bottom: 100px;
+}
+.content{
+	padding: 20px;
+}
+.content h4{
+	margin-bottom: 30px;
+}
+.my-user-sign{
+	font-size: 40px;
+	color: #D3C0F8;
+}
+.my-user p{
+	margin: 0;
+	color: #D3C0F8;
+}
+.my-user-gap{
+	border: none;
+	border-left: 2px solid #D3C0F8;
+	height: 100%;
+	margin-left: 15px;
+}
+.my-content-box{
+	background-color: #524870;
+	border : none;
+	border-top: 30px solid #3A3253;
+	padding: 10px 20px;
+}
+.my-content-box .title{
+	border : none;
+	border-bottom: 2px solid #D3C0F8;
+	width: 50%;
+	font-size: 20px;
+	color: #D3C0F8;
+}
+.my-content-box p{
+	margin-top: 10px;
+	color: #D3C0F8;
 }
