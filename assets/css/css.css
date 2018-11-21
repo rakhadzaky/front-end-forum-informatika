@@ -52,6 +52,9 @@ body{
 
 .my_navbar{
 	background-color: #524870;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 .my_navbar button{
 	background-color: transparent;
@@ -78,7 +81,8 @@ body{
 	background-color: #5E4166;
 	min-height: 100%;
 	position: fixed;
-	padding: 0 15px 0 0;
+	padding: 40px 15px 0 0;
+	z-index: 0;
 }
 .my_nav_item{
 	padding: 10px 10px 10px 20px;
@@ -103,7 +107,7 @@ body{
 	margin-bottom: 100px;
 }
 .content{
-	padding: 20px;
+	padding: 60px 20px 20px 20px;
 }
 .content h4{
 	margin-bottom: 30px;
@@ -138,4 +142,50 @@ body{
 .my-content-box p{
 	margin-top: 10px;
 	color: #D3C0F8;
+}
+.my-content-break-point{
+	margin-top: 10px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background-color: #524870;
+	color: #D3C0F8;
+	border : 2px solid #836DAD;
+	text-align: center;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+
+.my_article{
+	width: 100%;
+	background-color: #3A3253;	
+	margin: 10px 0;
+	color: white;
+	cursor: pointer;
+}
+.content-article{
+	padding: 10px 20px 10px 20px;
+}
+.my_article .title{
+	text-align: left;
+	font-size: 20px;
+}
+.my_article .keterangan{
+	text-align: right;
+}
+.my_article table{
+	width: 100%;
+}
+.my_article-detail{
+	width: 100%;
+	background-color: #786F95;	
+	color: white;
+	text-align: center;
+	/*height: 0;*/
+	opacity: 0;
+	transition: 0.5s ease;
+}
+.my_article:hover .my_article-detail{
+	height: auto;
+	opacity: 1;
 }

@@ -1,0 +1,34 @@
+<ul class="my_side nav flex-column">
+				<li class="nav-item row">
+					<div class="col-sm-4 my_nav_item_icon">
+						<i class="fa fa-newspaper"></i>
+					</div>
+					<div class="col-sm-8 my_nav_item">
+						<label> Article</label>
+					</div>
+				</li>
+				<li class="nav-item row">
+					<div class="col-sm-4 my_nav_item_icon">
+						<i class="fa fa-book"></i>
+					</div>
+					<div class="col-sm-8 my_nav_item">
+						<label> Modul</label>
+					</div>
+				</li>
+				<li class="nav-item row">
+					<div class="col-sm-4 my_nav_item_icon">
+						<i class="fa fa-laptop"></i>
+					</div>
+					<div class="col-sm-8 my_nav_item">
+						<label> Laboratorium</label>
+					</div>
+				</li>
+				<li class="nav-item row">
+					<div class="col-sm-4 my_nav_item_icon">
+						<i class="fa fa-bullhorn"></i>
+					</div>
+					<div class="col-sm-8 my_nav_item">
+						<label> Announcement</label>
+					</div>
+				</li>
+			</ul>	
