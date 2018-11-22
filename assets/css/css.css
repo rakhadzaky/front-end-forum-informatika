@@ -190,6 +190,14 @@ body{
 	height: auto;
 	opacity: 1;
 }
+.my_article .action{
+	text-align: right;
+}
+.my_article .action button{
+	background-color: transparent;
+	border: none;
+	color: white;
+}
 .my_modul{
 	width: 30%;
 	height: 200px;
