@@ -202,20 +202,37 @@ body{
 	width: 100%;
 	background-color: #3A3253;
 	padding: 10px;
+	border-radius: 10px;
 }
-.my_detail_article h4{
+.my_detail_article_h4{
 	margin-bottom: 10px;
+	border-bottom: 2px solid #D3C0F8;
 }
 .my_detail_article_comment_box{
 	width: 100%;
 	overflow: auto;
+	overflow-x: hidden;
 	height: 500px;
 }
 .my_detail_article_comment{
 	width: 100%;
 	background-color: #3A3253;
 	padding: 10px;
-	margin-bottom: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.my_detail_article_comment_gap{
+	height: 60%;
+	border: none;
+	border-left: 2px solid #D3C0F8;
+	margin-left: 10px;
+}
+.btn{
+	background-color: #3A3253;
+	color: white;
+}
+.modal{
+	color: #000;
 }
 .my_modul{
 	width: 30%;
