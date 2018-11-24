@@ -208,6 +208,10 @@ body{
 	margin-bottom: 10px;
 	border-bottom: 2px solid #D3C0F8;
 }
+.my_detail_article_img{
+	width: 100%;
+	margin-bottom: 20px;
+}
 .my_detail_article_comment_box{
 	width: 100%;
 	overflow: auto;
@@ -297,4 +301,14 @@ body{
 .my_announce_box .content_box .date{
 	font-size: 14px;
 	margin-bottom: 10px;
+}
+.my_detail_announce_box{
+	width: 100%;
+}
+.my_detail_announce_box h4{
+	margin-bottom: 10px;
+}
+.my_detail_announce_box img{
+	width: 80%;
+	margin-bottom: 20px;
 }
