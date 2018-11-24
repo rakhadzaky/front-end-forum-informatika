@@ -198,6 +198,25 @@ body{
 	border: none;
 	color: white;
 }
+.my_detail_article_box{
+	width: 100%;
+	background-color: #3A3253;
+	padding: 10px;
+}
+.my_detail_article h4{
+	margin-bottom: 10px;
+}
+.my_detail_article_comment_box{
+	width: 100%;
+	overflow: auto;
+	height: 500px;
+}
+.my_detail_article_comment{
+	width: 100%;
+	background-color: #3A3253;
+	padding: 10px;
+	margin-bottom: 10px;
+}
 .my_modul{
 	width: 30%;
 	height: 200px;
@@ -217,10 +236,6 @@ body{
 	opacity: 1;
 	transition: 0.3s ease;
 }
-/*.my_modul:hover{
-	border: none;
-	transition: 0.5s ease;
-}*/
 .my_modul img:hover{
 	opacity: 0;
 }
