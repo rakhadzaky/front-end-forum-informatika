@@ -216,7 +216,10 @@ body{
 	width: 100%;
 	overflow: auto;
 	overflow-x: hidden;
-	height: 500px;
+	height: 60%;
+}
+.my_detail_comment_content{
+	margin-bottom: 30px;
 }
 .my_detail_article_comment{
 	width: 100%;
@@ -240,6 +243,10 @@ body{
 }
 .modal{
 	color: #000;
+}
+.my_table_header{
+	background-color: #3A3253;
+	color: white;
 }
 .my_modul{
 	width: 30%;
@@ -279,6 +286,9 @@ body{
 	border-radius: 10px;
 	background-color: #fff;
 	margin-bottom: 30px;
+}
+.my_manage_modul_box{
+	width: 100%;
 }
 .my_announce_box .img_box{
 	width: 100%;
