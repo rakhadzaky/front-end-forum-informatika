@@ -6,6 +6,9 @@ body{
 	/*background-color: white;*/
 	color: white;
 }
+.display_none{
+	display: none !important;
+}
 .logo-login{
 	width: 200px;
 }
@@ -50,7 +53,29 @@ body{
 	transition: 0.5s;
 	border-color: white;
 }
-
+.my_search_box{
+	text-align: right;
+	padding-right: 20px;
+	font-size: 14px;
+}
+.my_search_box input{
+	border: 0;
+	padding: 10px 15px;
+	border-radius: 5px 0 0 5px;
+	width: 50%;
+}
+.my_search_box button{
+	margin-left: -5px;
+	padding: 10px 15px;
+	border: 0;
+	background-color: #524870;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+.my_search_box button:hover{
+	background-color: #623FA8;
+}
 .my_navbar{
 	background-color: #524870;
 	position: fixed;
@@ -111,7 +136,7 @@ body{
 	padding: 60px 20px 20px 20px;
 }
 .content h4{
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 .my-user-sign{
 	font-size: 40px;
@@ -237,9 +262,18 @@ body{
 .btn{
 	background-color: #3A3253;
 	color: white;
+	font-size: 14px;
+	padding: 10px 15px;
 }
 .btn:hover{
 	background-color: #51437B;
+}
+.btn_sort{
+	width: auto;
+}
+.btn_sort .btn{
+	padding: 0px;
+	display: block;
 }
 .modal{
 	color: #000;
@@ -247,6 +281,9 @@ body{
 .my_table_header{
 	background-color: #3A3253;
 	color: white;
+}
+.my_table_header_text{
+	margin: auto;
 }
 .my_modul{
 	width: 30%;

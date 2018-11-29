@@ -6,6 +6,7 @@
 <!-- <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css"> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="../../assets/css/css.css">
+<script src="../../assets/js/table_sorting.js"></script>
 <head>
 	<title>Home | Forum Informatika</title>
 </head>
@@ -54,20 +55,80 @@
 			</ul>
 		<div class="col-sm-9 offset-3">
 			<div class="container content">
-				<table class="table table-striped">
+				<div class="row">
+					<div class="col-md-6">
+						
+					</div>
+					<div class="col-md-6 my_search_box">
+						<form action="" method="get" accept-charset="utf-8">
+							<input type="text" class="" name="search" placeholder="Search...">
+							<button type="submit" class="search_button"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+				</div>
+				<br>
+				<table class="table table-striped" id="myTable">
 					<thead class="my_table_header">
 						<tr>
-							<td>Matkul</td>
-							<td>judul</td>
-							<td>Semester</td>
-							<td>Tanggal Upload</td>
-							<td>Size</td>
+							<td>
+								<div class="row">
+									<div class="col-sm-6 my_table_header_text">
+										Matkul 
+									</div>
+									<div class="col-sm-6 btn_sort">
+										<button class="btn fa fa-sort-up" onclick="sortTableDesc(0)"></button>
+										<button class="btn fa fa-sort-down" onclick="sortTableAsc(0)"></button>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="row">
+									<div class="col-sm-6 my_table_header_text">
+										Judul 
+									</div>
+									<div class="col-sm-6 btn_sort">
+										<button class="btn fa fa-sort-up" onclick="sortTableDesc(1)"></button>
+										<button class="btn fa fa-sort-down" onclick="sortTableAsc(1)"></button>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="row">
+									<div class="col-sm-6 my_table_header_text">
+										Semester 
+									</div>
+									<div class="col-sm-6 btn_sort">
+										<button class="btn fa fa-sort-up" onclick="sortTableDesc(2)"></button>
+										<button class="btn fa fa-sort-down" onclick="sortTableAsc(2)"></button>
+									</div>
+								</div>
+							</td>
+							<td><div class="row">
+									<div class="col-sm-6 my_table_header_text">
+										Tanggal Upload 
+									</div>
+									<div class="col-sm-6 btn_sort">
+										<button class="btn fa fa-sort-up" onclick="sortTableDesc(3)"></button>
+										<button class="btn fa fa-sort-down" onclick="sortTableAsc(3)"></button>
+									</div>
+								</div></td>
+							<td>
+								<div class="row">
+									<div class="col-sm-6 my_table_header_text">
+										Size 
+									</div>
+									<div class="col-sm-6 btn_sort">
+										<button class="btn fa fa-sort-up" onclick="sortTableDesc(4)"></button>
+										<button class="btn fa fa-sort-down" onclick="sortTableAsc(4)"></button>
+									</div>
+								</div>
+							</td>
 							<td>Download</td>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>PBO</td>
+							<td>APBO</td>
 							<td>Bab 1 - Percabangan</td>
 							<td>3</td>
 							<td>25 November 2018</td>
@@ -75,18 +136,18 @@
 							<td><button class="btn"><i class="fa fa-download"></i></button></td>
 						</tr>
 						<tr>
-							<td>PBO</td>
-							<td>Bab 1 - Percabangan</td>
+							<td>CPBO</td>
+							<td>Bab 2 - Perulangan</td>
 							<td>3</td>
-							<td>25 November 2018</td>
+							<td>24 November 2018</td>
 							<td>10 Mb</td>
 							<td><button class="btn"><i class="fa fa-download"></i></button></td>
 						</tr>
 						<tr>
-							<td>PBO</td>
-							<td>Bab 1 - Percabangan</td>
+							<td>APBO</td>
+							<td>Bab 3 - Array</td>
 							<td>3</td>
-							<td>25 November 2018</td>
+							<td>23 November 2018</td>
 							<td>10 Mb</td>
 							<td><button class="btn"><i class="fa fa-download"></i></button></td>
 						</tr>
