@@ -364,6 +364,13 @@ body{
 	width: 80%;
 	margin-bottom: 20px;
 }
+.my_detail_announce_action{
+	width: 100%;
+	border-top: 2px solid #322A4B;
+	background-color: #3A3253;
+	text-align: right;
+	padding: 0 20px;
+}
 .my_detail_lab_box{
 	width: 100%;
 }

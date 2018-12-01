@@ -9,6 +9,13 @@
 <!-- <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css"> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="../../assets/css/css.css">
+<script src="../../assets/js/show_category.js"></script>
+<script>
+function my_artikel(){
+        $(".not").toggle(500);
+    };
+
+</script>
 <head>
 	<title>Home | Forum Informatika</title>
 </head>
@@ -17,7 +24,7 @@
 		<ul>
 			<li><button type=""><i class="fa fa-bell"></i></button></li>
 			<li><button type=""><i class="fa fa-user-circle"></i> Account</button></li>
-			<li><button type=""><i class="fa fa-ellipsis-v"></i></button></li>
+			<li><button type=""><i class="fa fa-power-off"></i></button></li>
 		</ul>
 	</nav>
 	<div class="row">
@@ -65,7 +72,7 @@
 							<i class="fa fa-plus"></i>
 						</button>
 
-						<button class="btn"><i class="fa fa-list"></i> My Article</button>	
+						<button class="btn" onclick="my_artikel()"><i class="fa fa-list"></i> My Article</button>	
 					</div>
 					<div class="col-md-6 my_search_box">
 						<form action="" method="get" accept-charset="utf-8">
@@ -75,7 +82,7 @@
 					</div>
 				</div>
 
-				<div class="my_article">
+				<div class="my_article not">
 					<div class="row content-article">
 						<div class="col-md-6">
 							<div class="title">
@@ -107,12 +114,17 @@
 					</div>
 				</div>
 
-				<div class="my_article">
+				<div class="my_article not">
 					<div class="row content-article">
 						<div class="col-md-6">
 							<div class="title">
 								Lorem ipsum dolor sit amet
 							</div>	
+							<span class="badge badge-light">Action</span>
+							<span class="badge badge-light">Comedy</span>
+							<span class="badge badge-light">Rommance</span>
+							<span class="badge badge-light">Supranatural</span>
+							<span class="badge badge-light">Slice of Life</span>
 						</div>
 						<div class="col-md-6">
 							<div class="keterangan">
@@ -169,6 +181,48 @@
 						<i class="fa fa-chevron-down"></i>
 					</div>
 				</div>
+
+
+				<!-- - - - - - - - - - - - -ADMIN - - - - -->
+				<div class="my_article not">
+					<div class="row content-article">
+						<div class="col-md-6">
+							<div class="title">
+								Lorem ipsum dolor sit amet
+							</div>
+							<span class="badge badge-light">Action</span>
+							<span class="badge badge-light">Comedy</span>
+							<span class="badge badge-light">Rommance</span>
+							<span class="badge badge-light">Supranatural</span>
+							<span class="badge badge-light">Slice of Life</span>	
+						</div>
+						<div class="col-md-5">
+							<div class="keterangan">
+								<table class="right">
+									<tr>
+										<td>Account</td>
+										<td><i class="fa fa-user-circle"></i></td>
+									</tr>
+									<tr>
+										<td>21 November 2018</td>
+										<td><i class="fa fa-calendar-alt"></i></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="col-md-1 action">
+							<table>
+								<tr><td><button><i class="fa fa-trash"></i></button></td></tr>
+								<tr><td><button><i class="fa fa-lock"></i></button></td></tr>
+							</table>
+						</div>
+					</div>
+					<div class="my_article-detail">
+						<i class="fa fa-chevron-down"></i>
+					</div>
+				</div>
+				<!-- - - - - - - - - - - - -ADMIN - - - - -->
+
 			</div>
 		</div>
 		<!-- The Modal -->

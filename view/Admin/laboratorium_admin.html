@@ -5,6 +5,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="../../assets/js/show_category.js"></script>
 <!-- <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css"> -->
 <!-- <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css"> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -17,7 +18,7 @@
 		<ul>
 			<li><button type=""><i class="fa fa-bell"></i></button></li>
 			<li><button type=""><i class="fa fa-user-circle"></i> Account</button></li>
-			<li><button type=""><i class="fa fa-ellipsis-v"></i></button></li>
+			<li><button type=""><i class="fa fa-power-off"></i></button></li>
 		</ul>
 	</nav>
 	<div class="row">
@@ -58,12 +59,28 @@
 		<div class="col-sm-9 offset-3">
 			<div class="container content">
 				<div class="my_manage_modul_box">
-					<!-- Button to Open the Modal -->
+				<div class="row">
+					<div class="col-md-1">
+						<!-- Button to Open the Modal -->
 					<button type="button" class="btn" data-toggle="modal" data-target="#myModal">
 					<i class="fa fa-plus"></i>
+
 					</button>
+					</div>
+					<div class="col-md-5">
+						<button class="btn" onclick="toggle('all')">ALL</button>
+						<button class="btn" onclick="toggle('icm')">ICM</button>
+						<button class="btn" onclick="toggle('side')">SIDE</button>
+						<button class="btn" onclick="toggle('tele')">TELE</button>
+					</div>
+					<div class="col-md-6 my_search_box">
+						<form action="" method="get" accept-charset="utf-8">
+								<input type="text" class="" name="search" placeholder="Search...">
+								<button type="submit" class="search_button"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
 				</div>
-				<div class="my_modul">
+				<div class="my_modul" id="icm">
 					<img src="../../assets/img/ai.png" alt="">
 					<div class="my_modul_content">
 						Artificial Intelligence <br>
@@ -74,7 +91,7 @@
 					</div>
 				</div>
 
-				<div class="my_modul">
+				<div class="my_modul" id="side">
 					<img src="../../assets/img/if.png" alt="">
 					<div class="my_modul_content">
 						Modul 1 <br>
@@ -85,7 +102,7 @@
 					</div>
 				</div>
 
-				<div class="my_modul">
+				<div class="my_modul" id="side">
 					<img src="../../assets/img/proclub.png" alt="">
 					<div class="my_modul_content">
 						Modul 1 <br>
@@ -97,7 +114,7 @@
 					</div>
 				</div>
 
-				<div class="my_modul">
+				<div class="my_modul" id="icm">
 					<img src="../../assets/img/mm.jpeg" alt="">
 					<div class="my_modul_content">
 						Modul 1 <br>
